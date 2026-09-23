@@ -133,17 +133,13 @@ function initForm() {
         formData.append('email', email);
 
         function sendFormPayload(payload) {
-            fetch('https://formspree.io/f/YOUR_FORMSPREE_ID', {
+            fetch('send.php', {
                 method: 'POST',
-                headers: {
-                    'Content-Type': 'application/json',
-                    'Accept': 'application/json'
-                },
-                body: JSON.stringify(Object.fromEntries(payload))
+                body: payload
             })
             .then(response => response.json())
             .then(data => {
-                if (data.ok) {
+                if (data.status === 'success') {
                     alert('✨ Ваше сообщение было успешно отправлено! Юридическое согласие (ПЭП) зафиксировано на сервере.');
                     form.reset();
                     submitBtn.disabled = false;

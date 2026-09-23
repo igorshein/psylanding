@@ -125,11 +125,10 @@ body {
     position: relative;
     z-index: 1;
     width: 390px;
-    height: 390px;
-    object-fit: cover;
+    max-height: 520px;
+    object-fit: contain;
     margin: 0 auto 28px;
     display: block;
-    box-shadow: 0 8px 30px rgba(32, 19, 12, 0.12);
     animation: heroZoom 12s ease-in-out infinite alternate;
 }
 
