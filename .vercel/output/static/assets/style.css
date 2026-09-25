@@ -220,16 +220,6 @@ body {
     line-height: 1.6;
 }
 
-.editorial .fig-ref {
-    display: block;
-    font-size: 11px;
-    text-transform: uppercase;
-    letter-spacing: 1.5px;
-    color: var(--ink-warm);
-    margin: 32px 0 12px;
-    font-weight: 500;
-}
-
 /* === PARALLAX IMAGE BAND === */
 .parallax-band {
     position: relative;
@@ -304,26 +294,6 @@ body {
     color: var(--ink-brown);
     line-height: 1.85;
     margin-bottom: 16px;
-}
-
-.case-study .case-detail {
-    font-size: 13px;
-    color: var(--ink-warm);
-    font-style: italic;
-    font-family: 'Playfair Display', serif;
-    margin-top: 24px;
-    padding-top: 16px;
-    border-top: 1px solid var(--border-soft);
-}
-
-.case-study .fig-label {
-    display: block;
-    font-size: 11px;
-    text-transform: uppercase;
-    letter-spacing: 1.5px;
-    color: var(--ink-warm);
-    margin-bottom: 8px;
-    font-weight: 500;
 }
 
 /* === PRICING === */
@@ -920,8 +890,8 @@ body {
     }
 
     .hero-avatar {
-        width: 110px;
-        height: 110px;
+        width: 280px;
+        max-height: 380px;
     }
 
     .hero-subtitle {
@@ -988,8 +958,8 @@ body {
     }
 
     .hero-avatar {
-        width: 90px;
-        height: 90px;
+        width: 200px;
+        max-height: 280px;
     }
 
     .hero-subtitle {
