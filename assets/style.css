@@ -683,6 +683,36 @@ body {
     border-top: 1px solid var(--border-soft);
 }
 
+.doc-heading-label {
+    display: block;
+    font-family: 'Playfair Display', serif;
+    font-size: 11px;
+    font-style: italic;
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+    color: var(--ink-warm);
+    margin-bottom: 12px;
+}
+
+.doc-heading h3 {
+    font-family: 'Playfair Display', serif;
+    font-size: 28px;
+    font-weight: 400;
+    line-height: 1.25;
+    color: var(--ink-dark);
+    letter-spacing: 0.5px;
+    margin-bottom: 16px;
+}
+
+.doc-note {
+    font-size: 13px;
+    font-weight: 300;
+    line-height: 1.85;
+    letter-spacing: 0.3px;
+    color: var(--ink-mute);
+    margin-bottom: 24px;
+}
+
 .doc-btn:hover {
     padding-left: 8px;
     color: var(--ink-warm);
@@ -972,6 +1002,14 @@ body {
 
     .case-study h3 {
         font-size: 20px;
+    }
+
+    .doc-heading h3 {
+        font-size: 22px;
+    }
+
+    .doc-section {
+        padding: 40px 20px;
     }
 
     .pricing-section h2,
